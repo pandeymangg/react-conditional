@@ -1,4 +1,4 @@
-#React Conditional
+# React Conditional
 
 ## A simple conditional component with support for fallback for your react projects.
 
