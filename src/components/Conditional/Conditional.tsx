@@ -6,10 +6,10 @@ interface IConditionalProps {
   fallback?: React.ReactNode;
 }
 
-const Conditional = (props: IConditionalProps) => {
+const Conditional = (props: IConditionalProps): JSX.Element | null => {
   const { condition, children, fallback } = props;
 
-  if (!condition) return fallback || null;
+  if (!condition) return fallback ? <>{fallback}</> : null;
 
   return <>{children}</>;
 };
