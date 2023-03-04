@@ -1,7 +1,8 @@
 {
   "name": "@pandeymangg/react-conditional",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A conditional component for react",
+  "repository": "https://github.com/pandeymangg/react-conditional/",
   "scripts": {
     "rollup": "rollup -c"
   },
